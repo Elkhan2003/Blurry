@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: visible;
+    margin: 0;
+}
+.bg {
+    position: absolute;
+    background: url(https://img1.akspic.ru/originals/7/2/3/6/2/126327-kavajnaya-kosmos-forma-sherst-devuska-1920x1080.jpg) no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(0px);
+}
+.loading_text{
+    position: absolute;
+    text-shadow: 0px 5px 10px red;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
